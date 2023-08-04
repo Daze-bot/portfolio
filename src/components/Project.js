@@ -1,6 +1,6 @@
 import React from "react";
-import Github from '../imgs/github.svg';
-import Link from '../imgs/external-link.svg';
+import Github from '../imgs/icons/github.svg';
+import Link from '../imgs/icons/external-link.svg';
 
 const Project = (props) => {
 

@@ -1,8 +1,8 @@
 import React from "react";
-import Headshot from '../imgs/headshot.PNG';
-import Github from '../imgs/github.svg';
-import LinkedIn from '../imgs/linkedin.svg';
-import Twitter from '../imgs/twitter.svg';
+import Headshot from '../imgs/headshot.jpg';
+import Github from '../imgs/icons/github.svg';
+import LinkedIn from '../imgs/icons/linkedin.svg';
+import Twitter from '../imgs/icons/twitter.svg';
 
 const Header = () => {
 
@@ -13,7 +13,7 @@ const Header = () => {
         <p>Jevon Fillette</p>
       </div>
       <div className="aboutMe">
-        <h2>About Me</h2>
+        <h2>About me</h2>
         <p>Lorem ipsum something this doesn't mean mucho but place holder for lorem and tangi. Lorem ipsum something this doesn't mean mucho but place holder for lorem and tangi.Lorem ipsum something this doesn't mean mucho but place holder for lorem and tangi.</p>
         <div className="headerLinks">
           <a href="https://github.com/Daze-bot" target="_blank" rel="noreferrer">
