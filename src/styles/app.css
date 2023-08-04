@@ -1,3 +1,17 @@
+:root {
+  --daze-blue: #1992d4;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../fonts/playfair.ttf');
+}
+
 * {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -10,4 +24,35 @@
 #root {
   position: relative;
   min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+}
+
+.imgContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.imgContainer p {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: 'Playfair';
+  font-size: 3rem;
 }
