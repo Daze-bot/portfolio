@@ -4,6 +4,12 @@ import Memory from '../imgs/projectScreenshots/memory.jpg';
 import Library from '../imgs/projectScreenshots/library.jpg';
 import Battleship from '../imgs/projectScreenshots/battleship.jpg';
 import Todo from '../imgs/projectScreenshots/to-do.jpg';
+import PhotoFinderRec from '../video/photo-finder-rec.gif';
+import ShoppingRec from '../video/shopping-rec.gif';
+import MemoryRec from '../video/memory-rec.gif';
+import LibraryRec from '../video/library-rec.gif';
+import BattleshipRec from '../video/battleship-rec.gif';
+import TodoRec from '../video/todo-rec.gif';
 
 const projectLibrary = [
   {
@@ -12,6 +18,7 @@ const projectLibrary = [
     screenshot: PhotoFinder,
     githubLink: "https://github.com/Daze-bot/photo-tagging",
     projectLink: "https://daze-bot.github.io/photo-tagging/",
+    video: PhotoFinderRec,
   },
   {
     name: 'Shopping Cart',
@@ -19,6 +26,7 @@ const projectLibrary = [
     screenshot: ShoppingCart,
     githubLink: "https://github.com/Daze-bot/shopping-cart",
     projectLink: "https://daze-bot.github.io/shopping-cart/",
+    video: ShoppingRec,
   },
   {
     name: 'League of Memory',
@@ -26,6 +34,7 @@ const projectLibrary = [
     screenshot: Memory,
     githubLink: "https://github.com/Daze-bot/memory-card",
     projectLink: "https://daze-bot.github.io/memory-card/",
+    video: MemoryRec,
   },
   {
     name: 'Virtual Library',
@@ -33,6 +42,7 @@ const projectLibrary = [
     screenshot: Library,
     githubLink: "https://github.com/Daze-bot/book-library",
     projectLink: "https://daze-bot.github.io/book-library/",
+    video: LibraryRec,
   },
   {
     name: 'Battleship ',
@@ -40,6 +50,7 @@ const projectLibrary = [
     screenshot: Battleship,
     githubLink: "https://github.com/Daze-bot/battleship",
     projectLink: "https://daze-bot.github.io/battleship/",
+    video: BattleshipRec,
   },
   {
     name: 'To-do List',
@@ -47,6 +58,7 @@ const projectLibrary = [
     screenshot: Todo,
     githubLink: "https://github.com/Daze-bot/todo-list",
     projectLink: "https://daze-bot.github.io/todo-list/",
+    video: TodoRec,
   },
 ]
 

@@ -3,7 +3,7 @@ import Phone from '../imgs/icons/phone.svg';
 import Email from '../imgs/icons/mail.svg';
 import LinkedIn from '../imgs/icons/linkedin.svg';
 import Twitter from '../imgs/icons/twitter.svg';
-import Photo from '../imgs/couple.jpg';
+import Photo from '../imgs/sixers.jpg';
 
 const Contact = (props) => {
 
@@ -23,7 +23,7 @@ const Contact = (props) => {
           </a>
         </div>
       </div>
-      <img src={Photo} alt="Jevon and Wife"/>
+      <img className="contactFullImg" src={Photo} alt="Jevon and Wife"/>
     </div>
   )
 }
