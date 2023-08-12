@@ -24,22 +24,19 @@
 #root {
   position: relative;
   min-height: 100vh;
-  background-color: var(--bg-blue);
+  background-color: white;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 2000px;
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
+.nav {
   min-height: 80px;
   background-color: var(--bg-blue);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -47,7 +44,19 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 2000px;
+}
+
+.nav,
+.nav button {
+  transition: .6s ease;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-around;
+  min-height: 80px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .navLinks {
@@ -61,7 +70,7 @@ nav {
   border: none;
   outline: none;
   background: none;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: 'Playfair';
   color: white;
 }
@@ -81,8 +90,9 @@ nav {
 }
 
 .navLogo img {
-  width: 70px;
+  width: 60px;
   height: auto;
+  border-radius: 12px 0 12px 0;
 }
 
 header {

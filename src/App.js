@@ -4,19 +4,42 @@ import Main from './components/Main';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import About from './components/About';
-import { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 function App() {
   const aboutRef = useRef(null);
   const mainRef = useRef(null);
   const contactRef = useRef(null);
 
+  const [navColor, setNavColor] = useState('white');
+  const [navBG, setNavBG] = useState('#099bc0');
+
+  useEffect(() => {
+    const checkScrolled = (event) => {
+      if (window.scrollY !== 0) {
+        setNavColor('#099bc0');
+        setNavBG('white');
+      } else if (window.scrollY === 0) {
+        setNavColor('white');
+        setNavBG('#099bc0');
+      }
+    };
+
+    window.addEventListener('scroll', checkScrolled);
+
+    return () => {
+      window.removeEventListener('scroll', checkScrolled);
+    }
+  }, [])
+
   return (
     <div className="app">
       <Nav 
         aboutRef={aboutRef}
         mainRef={mainRef}
-        contactRef={contactRef} 
+        contactRef={contactRef}
+        navBG={navBG}
+        navColor={navColor}
       />
       <Header />
       <About 

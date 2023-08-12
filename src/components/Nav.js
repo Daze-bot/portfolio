@@ -19,25 +19,44 @@ const Nav = (props) => {
   }
 
   return (
-    <nav>
-      <div 
-        className="navLogo"
-        onClick={scrollToTop}
-      >
-        <img src={Logo} alt="Logo"></img>
+    <div 
+      className="nav"
+      style={{
+        backgroundColor: `${props.navBG}`
+      }}
+    >
+      <div className="navContent">
+        <div
+          className="navLogo"
+          onClick={scrollToTop}
+        >
+          <img src={Logo} alt="Logo"></img>
+        </div>
+        <div className="navLinks">
+          <button 
+            style={{
+              color: `${props.navColor}`
+            }}
+            onClick={() => handleScroll(props.aboutRef.current)}>
+            About
+          </button>
+          <button 
+            style={{
+              color: `${props.navColor}`
+            }}
+            onClick={() => handleScroll(props.mainRef.current)}>
+            Portfolio
+          </button>
+          <button 
+            style={{
+              color: `${props.navColor}`
+            }}
+            onClick={() => handleScroll(props.contactRef.current)}>
+            Contact
+          </button>
+        </div>
       </div>
-      <div className="navLinks">
-        <button onClick={() => handleScroll(props.aboutRef.current)}>
-          About
-        </button>
-        <button onClick={() => handleScroll(props.mainRef.current)}>
-          Portfolio
-        </button>
-        <button onClick={() => handleScroll(props.contactRef.current)}>
-          Contact
-        </button>
-      </div>
-    </nav>
+    </div>
   )
 }
 
