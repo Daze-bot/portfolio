@@ -1,14 +1,14 @@
 import React from "react";
-import Phone from '../imgs/icons/phoneWhite.svg';
-import Email from '../imgs/icons/mailWhite.svg';
-import LinkedIn from '../imgs/icons/linkedinWhite.svg';
-import Twitter from '../imgs/icons/twitterWhite.svg';
+import Phone from '../imgs/icons/phone.svg';
+import Email from '../imgs/icons/mail.svg';
+import LinkedIn from '../imgs/icons/linkedin.svg';
+import Twitter from '../imgs/icons/twitter.svg';
 import Photo from '../imgs/couple.jpg';
 
-const Contact = () => {
+const Contact = (props) => {
 
   return (
-    <div className="contact">
+    <div className="contact" ref={props.contactRef}>
       <div className="contactDetails">
         <h2>Contact me</h2>
         <p>Should you need any further information, or think that our work could be mutually beneficial, please do not hesitate to contact me!</p>

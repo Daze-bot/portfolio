@@ -1,33 +1,17 @@
 import React from "react";
-import Headshot from '../imgs/headshot.jpg';
-import Github from '../imgs/icons/github.svg';
-import LinkedIn from '../imgs/icons/linkedin.svg';
-import Twitter from '../imgs/icons/twitter.svg';
+import Headshot from '../imgs/headshotClean2.png';
 
 const Header = () => {
 
   return (
     <header>
       <div className="headerContent">
-        <div className="imgContainer">
-          <img src={Headshot} alt="Headshot"/>
-          <p>Jevon Fillette</p>
+        <div className="headerInfo">
+          <h1>Jevon Fillette</h1>
+          <h4>Web Developer</h4>
+          <p>Explore some of my latest work and find out how to get in contact with me below!</p>
         </div>
-        <div className="aboutMe">
-          <h3>About me</h3>
-          <p>I am a Web Developer from Philadelphia, PA with a background in Finance. I enjoy problem solving and pride myself on building clean, efficient, and scalable websites.</p>
-          <div className="headerLinks">
-            <a href="https://github.com/Daze-bot" target="_blank" rel="noreferrer">
-              <img src={Github} alt="GitHub"/>
-            </a>
-            <a href="https://www.linkedin.com/in/jevon-fillette" target="_blank" rel="noreferrer">
-              <img src={LinkedIn} alt="LinkedIn"/>
-            </a>
-            <a href="https://twitter.com/Code4Daze" target="_blank" rel="noreferrer">
-              <img src={Twitter} alt="Twitter"/>
-            </a>
-          </div>
-        </div>
+        <img src={Headshot} alt="Headshot"/>
       </div>
     </header>
   )
