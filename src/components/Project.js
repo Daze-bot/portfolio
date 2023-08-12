@@ -6,7 +6,15 @@ const Project = (props) => {
 
   return (
     <div className="projectCard">
-      <img src={props.project.screenshot} alt="Project Screenshot"/>
+      <a href={props.project.projectLink} target="_blank" rel="noreferrer">
+        <div
+          className="projectScreenshot"
+          style={{
+            backgroundImage: `url(${props.project.screenshot})`
+          }}
+        >
+        </div>
+      </a>
       <div className="projectDetails">
         <div className="projectTitle">
           <p>{props.project.name}</p>
