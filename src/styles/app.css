@@ -101,7 +101,6 @@ header {
   padding-bottom: 0;
   align-items: center;
   justify-content: center;
-  max-height: 100vh;
   background-color: var(--bg-blue);
   margin-top: 80px;
 }
