@@ -1,20 +1,30 @@
 import PhotoFinder from '../imgs/projectScreenshots/photo-finder.jpg';
 import ShoppingCart from '../imgs/projectScreenshots/shopping-cart.png';
 import Memory from '../imgs/projectScreenshots/memory.jpg';
-import Library from '../imgs/projectScreenshots/library.jpg';
+import Blog from '../imgs/projectScreenshots/blog.png';
 import Battleship from '../imgs/projectScreenshots/battleship.jpg';
+import MembersOnly from '../imgs/projectScreenshots/members-only.png';
 import Todo from '../imgs/projectScreenshots/to-do.jpg';
 import PhotoFinderRec from '../video/photo-finder-rec.gif';
 import ShoppingRec from '../video/shopping-rec.gif';
 import MemoryRec from '../video/memory-rec.gif';
-import LibraryRec from '../video/library-rec.gif';
 import BattleshipRec from '../video/battleship-rec.gif';
 import TodoRec from '../video/todo-rec.gif';
+import BlogRec from '../video/blog-rec.gif';
+import MembersOnlyRec from '../video/members-only-rec.gif';
 
 const projectLibrary = [
   {
+    name: "Daze's Blog",
+    description: "MERN stack blog app, built with a custom back-end REST API server using Node, Express, and MongoDB and two different React front-ends, one for the author and one for the consumers.",
+    screenshot: Blog,
+    githubLink: "https://github.com/Daze-bot/blog-api",
+    projectLink: "https://daze-blog-view.netlify.app/",
+    video: BlogRec,
+  },
+  {
     name: 'Photo Finder',
-    description: "Photo tagging app inspired by Where's Waldo. Live leaderboards with Firebase used for backend.",
+    description: "Photo tagging app inspired by Where's Waldo. Live leaderboards with React for the front-end and Firebase used for back-end.",
     screenshot: PhotoFinder,
     githubLink: "https://github.com/Daze-bot/photo-tagging",
     projectLink: "https://daze-bot.github.io/photo-tagging/",
@@ -29,28 +39,20 @@ const projectLibrary = [
     video: ShoppingRec,
   },
   {
+    name: "Members Only",
+    description: "Online chat room built on the back-end using Node, Express, and MongoDB.  Users first have to become a member before they can access the chat",
+    screenshot: MembersOnly,
+    githubLink: "https://github.com/Daze-bot/members-only",
+    projectLink: "https://daze-members-only.fly.dev/",
+    video: MembersOnlyRec,
+  },
+  {
     name: 'League of Memory',
-    description: "A tile based memory game that increases in difficulty as you play.  League of Legends themed.",
+    description: "A tile based memory game that increases in difficulty as you play.  League of Legends themed.  Built with React.",
     screenshot: Memory,
     githubLink: "https://github.com/Daze-bot/memory-card",
     projectLink: "https://daze-bot.github.io/memory-card/",
     video: MemoryRec,
-  },
-  {
-    name: 'Virtual Library',
-    description: "Online library for storing books that have been read, as well as books the user would like to read. The library links to an online book store for buying books.",
-    screenshot: Library,
-    githubLink: "https://github.com/Daze-bot/book-library",
-    projectLink: "https://daze-bot.github.io/book-library/",
-    video: LibraryRec,
-  },
-  {
-    name: 'Battleship ',
-    description: 'A classic game of Battleship developed using Test Driven Development.  Play against a competitive and difficult AI.',
-    screenshot: Battleship,
-    githubLink: "https://github.com/Daze-bot/battleship",
-    projectLink: "https://daze-bot.github.io/battleship/",
-    video: BattleshipRec,
   },
   {
     name: 'To-do List',
@@ -59,6 +61,14 @@ const projectLibrary = [
     githubLink: "https://github.com/Daze-bot/todo-list",
     projectLink: "https://daze-bot.github.io/todo-list/",
     video: TodoRec,
+  },
+  {
+    name: 'Battleship ',
+    description: 'A classic game of Battleship developed using Test Driven Development.  Play against a competitive and difficult AI.',
+    screenshot: Battleship,
+    githubLink: "https://github.com/Daze-bot/battleship",
+    projectLink: "https://daze-bot.github.io/battleship/",
+    video: BattleshipRec,
   },
 ]
 
