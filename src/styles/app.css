@@ -187,6 +187,7 @@ h4 {
 
 .headerLinks img {
   width: 28px;
+  filter: invert(49%) sepia(88%) saturate(2027%) hue-rotate(157deg) brightness(87%) contrast(93%);
 }
 
 main {
@@ -260,6 +261,7 @@ main h2 {
 
 .projectLinks img {
   width: 24px;
+  filter: invert(49%) sepia(88%) saturate(2027%) hue-rotate(157deg) brightness(87%) contrast(93%);
 }
 
 .projectDescription {
@@ -298,6 +300,10 @@ main h2 {
   color: black;
 }
 
+.contactDetails p img {
+  filter: invert(49%) sepia(88%) saturate(2027%) hue-rotate(157deg) brightness(87%) contrast(93%);
+}
+
 .contact img {
   max-width: 380px;
   height: auto;
@@ -311,6 +317,7 @@ main h2 {
 
 .contactIcons img {
   width: 80px;
+  filter: invert(49%) sepia(88%) saturate(2027%) hue-rotate(157deg) brightness(87%) contrast(93%);
 }
 
 /* tablet syling */
