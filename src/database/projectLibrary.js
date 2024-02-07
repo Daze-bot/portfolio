@@ -18,7 +18,7 @@ import EdgewoodRec from '../video/edgewood-rec.gif';
 const projectLibrary = [
   {
     name: "Daze's Blog",
-    description: "MERN stack blog app, built with a custom back-end REST API server using Node, Express, and MongoDB and two different React front-ends, one for the author and one for the consumers.",
+    description: "Personal blog built as a MERN stack app, using a custom back-end REST API server with Node, Express, and MongoDB and two different React front-ends, one for the author and one for the consumers.",
     screenshot: Blog,
     githubLink: "https://github.com/Daze-bot/blog-api",
     projectLink: "https://daze-blog-view.netlify.app/",
