@@ -12,7 +12,7 @@ Personal portfolio to showcase my work
 
 This consumer facing blog was built as part of a MERN stack application, serving as the front-end where users can view and comment on blog posts.  This React app makes API calls to the <a href="https://github.com/Daze-bot/blog-api">back-end</a> in order to read data and create comments
 
-### <a href="https://daze-blog-view.netlify.app/" target="_blank">View Live</a>
+### <a href="https://daze-bot.github.io/portfolio/" target="_blank">View Live</a>
 
 ### Features
 
