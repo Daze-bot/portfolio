@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3c982f1d.css",
-    "main.js": "/portfolio/static/js/main.167d221e.js",
+    "main.js": "/portfolio/static/js/main.d6058c2a.js",
     "static/media/battleship-rec.gif": "/portfolio/static/media/battleship-rec.398fefb6fbeae4e25cf2.gif",
     "static/media/photo-finder-rec.gif": "/portfolio/static/media/photo-finder-rec.3ad0169d1e0a82f5293a.gif",
     "static/media/memory-rec.gif": "/portfolio/static/media/memory-rec.8b8b5122f3cf6cbe2159.gif",
     "static/media/shopping-rec.gif": "/portfolio/static/media/shopping-rec.c5ef097129e002a587d7.gif",
     "static/media/todo-rec.gif": "/portfolio/static/media/todo-rec.540e9f1f86afb01a1f65.gif",
-    "static/media/blog-rec.gif": "/portfolio/static/media/blog-rec.90468d3311b54026087c.gif",
-    "static/media/members-only-rec.gif": "/portfolio/static/media/members-only-rec.3343da577cb33fa31b2b.gif",
+    "static/media/blog-rec.gif": "/portfolio/static/media/blog-rec.97954ac5f2d919c93c44.gif",
+    "static/media/members-only-rec.gif": "/portfolio/static/media/members-only-rec.f764f02338fada333c48.gif",
+    "static/media/edgewood-rec.gif": "/portfolio/static/media/edgewood-rec.cd88e9773a80ebf10cf1.gif",
     "static/media/shopping-cart.png": "/portfolio/static/media/shopping-cart.93e3cdd3226c87a5df9d.png",
     "static/media/sixers.jpg": "/portfolio/static/media/sixers.6bbc022f0de1a7021be6.jpg",
+    "static/media/edgewood.png": "/portfolio/static/media/edgewood.047c1190d3240dd60b05.png",
     "static/media/playfair.ttf": "/portfolio/static/media/playfair.3f7c141215e6d22d0f1e.ttf",
     "static/media/photo-finder.jpg": "/portfolio/static/media/photo-finder.2284faa4a16274ee053f.jpg",
     "static/media/roboto.ttf": "/portfolio/static/media/roboto.fc2b5060f7accec5cf74.ttf",
     "static/media/battleship.jpg": "/portfolio/static/media/battleship.b487abfc315f3115a045.jpg",
     "static/media/memory.jpg": "/portfolio/static/media/memory.7cac526ddad74afbe42d.jpg",
-    "static/media/members-only.png": "/portfolio/static/media/members-only.45b460c256ec01fe9c18.png",
     "static/media/hs3.png": "/portfolio/static/media/hs3.e750cf4e8a4f48e9f7ca.png",
-    "static/media/blog.png": "/portfolio/static/media/blog.a17e6025e693c5b53226.png",
+    "static/media/members-only.png": "/portfolio/static/media/members-only.58f17f45014c27a97682.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.b4ea2f85a647478abdff.png",
     "static/media/to-do.jpg": "/portfolio/static/media/to-do.36e3dafb21c30e6d3db9.jpg",
     "static/media/logo.jpg": "/portfolio/static/media/logo.b032b60cb0eb0873f2eb.jpg",
     "static/media/github.svg": "/portfolio/static/media/github.3c903c66b2c5334c8c0b80567c4ea422.svg",
@@ -29,10 +31,10 @@
     "static/media/external-link.svg": "/portfolio/static/media/external-link.90577cce48ecfddde9064420d52d9f5f.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
     "main.3c982f1d.css.map": "/portfolio/static/css/main.3c982f1d.css.map",
-    "main.167d221e.js.map": "/portfolio/static/js/main.167d221e.js.map"
+    "main.d6058c2a.js.map": "/portfolio/static/js/main.d6058c2a.js.map"
   },
   "entrypoints": [
     "static/css/main.3c982f1d.css",
-    "static/js/main.167d221e.js"
+    "static/js/main.d6058c2a.js"
   ]
 }
