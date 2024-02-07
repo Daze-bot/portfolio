@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Jevon Fillette Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio to showcase my work
 
-## Available Scripts
+<div align="center">
+  <kbd>
+    <img src="https://i.imgur.com/SNQIAi6.png" />
+  </kbd>
+</div>
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This consumer facing blog was built as part of a MERN stack application, serving as the front-end where users can view and comment on blog posts.  This React app makes API calls to the <a href="https://github.com/Daze-bot/blog-api">back-end</a> in order to read data and create comments
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### <a href="https://daze-blog-view.netlify.app/" target="_blank">View Live</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
 
-### `npm test`
+- View blog posts
+- View all user comments
+- Add new comments to individual blog posts
+- Show post creation and update dates
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built with
 
-### `npm run build`
+- Vite
+- React
+- React-Router
+- Netlify hosting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Built on Ubuntu 20.04
+- Install npm on local machine
 
-### `npm run eject`
+### Install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone the github repository
+- run ```npm install``` to install all dependencies
+- run ```npm run dev``` to open a locally hosted version of the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Navigating the site:
+<div align="center">
+  <kbd>
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZ1ZTB5c3Zyem5uN3J2aG85NnpkeXh1bm00dGhxMmUxNmp0bGF4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KuIHc930PEpANF8mwO/giphy.gif"/>
+  </kbd>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br></br>
 
-## Learn More
+- Submitting a new comment:
+<div align="center">
+  <kbd>
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXI3ZnV5MXZjc3VnY2QyMGt5bjc5cXRzb3JrN2lmb3ZldTVzbjFjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZESouWvlwCkDWqsc7g/giphy.gif"/>
+  </kbd>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
