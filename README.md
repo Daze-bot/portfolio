@@ -23,10 +23,9 @@ This consumer facing blog was built as part of a MERN stack application, serving
 
 ### Built with
 
-- Vite
 - React
-- React-Router
 - Netlify hosting
+- Google domain management
 
 ## Getting started
 
